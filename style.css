@@ -1,0 +1,75 @@
+body,
+html {
+    margin: 0;
+}
+
+.container-fluid {
+    background-color: white;
+    margin: -8px;
+}
+
+.navbar-brand {
+    padding-left: 100px;
+    font-family: 'Caveat', cursive;
+    font-size: 39px;
+    color: orange;
+}
+
+.btn-outline-success {
+    width: 50px;
+    border-color: orange;
+    color: orange;
+    font-weight: 500;
+    width: 123px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-1 {
+    width: 100%;
+    height: 400px;
+    flex-shrink: 0;
+    background-color: #FDBE35;
+}
+
+.sub-cont-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    float: left;
+    position: absolute;
+
+    >h1 {
+        font-family: 'Caveat', cursive;
+        color: white;
+        font-size: 45px;
+        margin-top: 100px;
+        margin-left: -66px;
+    }
+    >P {
+        margin-left: 5px;
+    }
+}
+.sub-cont-2{
+    width: 558px;
+    height: 100px;
+    margin-left: 159px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+.card-img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+.my{
+    margin-top: 100px;
+    float: right;
+    margin-right: 50px;
+    width: 350px;
+    height: 250px;
+}

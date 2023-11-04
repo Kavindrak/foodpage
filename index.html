@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+    </style>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="p-1">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand nav-fill">Hot Meals</a>
+                <form class="d-flex" role="search" style="padding-right: 130px; ">
+                    <input class="form-control me-2" type="search" placeholder="Search Food" aria-label="Search"
+                        style="font-weight: 500; border: none;">
+                    <button class="btn btn-outline-success" type="submit"><i class='bx bxs-face'></i>Login</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <section class="container-1">
+        <div class="sub-cont-1">
+            <h1>Look at your far meals</h1>
+            <p>Within a few clicks, find meals that are accesible near you</p>
+            <div class="sub-cont-2">
+                <div class="btn-group" role="group" aria-label="Basic outlined example">
+                    <button type="button" class="btn btn p-3" style="color: gray; font-weight: 700;"><i
+                            class='bx bx-cycling'></i>Delivery</button>
+                    <button type="button" class="btn btn p-3" style="color: gray; font-weight: 700;"><i
+                            class='bx bxs-shopping-bag'></i>Pickup</button>
+                </div>
+                <form class="d-flex my-4 mx-4" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Enter your address" aria-label="Search">
+                    <button class="btn btn-outline-success bg-danger" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <div>
+            <img class="my"src="heading.png" alt="">
+        </div>
+    </section>
+    <section class="container-2 m-4 d-flex justify-content-center">
+        <div class="card my-2 mx-1" style="width: 15rem; border: none;">
+            <img src="idli.png" class="card-img-top" style="height: 12rem; width: 15rem; border-radius: 5px;" alt="...">
+            <div class="card-body">
+                <h6 class="card-title">Vada</h6>
+                <a href="#" class="btn btn-outline-warning"
+                    style="background-color: rgba(241, 114, 40, 0.20); border: none; color: orange; font-weight: 700;">30
+                    min Delivery</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-1" style="width: 15rem; border: none;">
+            <img src="vada.png" class="card-img-top" style="height: 12rem; width: 15rem; border-radius: 5px;" alt="...">
+            <div class="card-body">
+                <h6 class="card-title">Idly</h6>
+                <a href="#" class="btn btn-outline-warning"
+                    style="background-color: rgba(241, 114, 40, 0.20); border: none; color: orange; font-weight: 700;">30
+                    min Delivery</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-1" style="width: 15rem; border: none;">
+            <img src="parotta.png" class="card-img-top" style="height: 12rem; width: 15rem; border-radius: 5px;"
+                alt="...">
+            <div class="card-body">
+                <h6 class="card-title">Parotta</h6>
+                <a href="#" class="btn btn-outline-warning"
+                    style="background-color: rgba(241, 114, 40, 0.20); border: none; color: orange; font-weight: 700;">30
+                    min Delivery</a>
+            </div>
+        </div>
+        <div class="card my-2 mx-1" style="width: 15rem; border: none;">
+            <img src="khichdi.png" class="card-img-top" style="height: 12rem; width: 15rem; border-radius: 5px;"
+                alt="...">
+            <div class="card-body">
+                <h6 class="card-title">Khichdi</h6>
+                <a href="#" class="btn btn-outline-warning"
+                    style="background-color: rgba(241, 114, 40, 0.20); border: none; color: orange; font-weight: 700;">30
+                    min Delivery</a>
+            </div>
+        </div>
+    </section>
+    <section class="container-3" style="background-color: #F6F5EE;">
+        <div class="sliding-section my-5">
+            <div class="d-flex mb-2 mx-5 justify-content-between">
+                <div class="mx-5 mt-4">
+                    <h4>Search by food</h4>
+                </div>
+            </div>
+            <div class="container-2 m-4 d-flex justify-content-center">
+                <div class="card-group">
+                    <div class="card d-flex align-items-center mx-4" style="border: none; background-color: #F6F5EE;">
+                        <img src="/foods/dosa.png" class="card-img" alt="img">
+                        <div class="card-body">
+                            <h6 class="card-title ">Dosa</h6>
+                        </div>
+                    </div>
+                    <div class="card d-flex align-items-center mx-4" style="border: none; background-color: #F6F5EE;">
+                        <img src="/foods/appam.png" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Aappm</h6>
+                        </div>
+                    </div>
+                    <div class="card d-flex align-items-center mx-4" style="border: none; background-color: #F6F5EE;">
+                        <img src="/foods/puttu.png" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Puttu</h6>
+                        </div>
+                    </div>
+                    <div class="card d-flex align-items-center mx-4" style="border: none; background-color: #F6F5EE;">
+                        <img src="/foods/iddiyappum.png" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Iddiyapum</h6>
+                        </div>
+                    </div>
+                    <div class="card d-flex align-items-center mx-4" style="border: none; background-color: #F6F5EE;">
+                        <img src="/foods/pongal.png" class="card-img" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Pongal</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="card d-flex align-items-center mx-4" style="border: none; background-color: #F6F5EE;">
+                    <img src="/foods/veg rice.png" class="card-img alt=" ...">
+                    <div class="card-body">
+                        <h6 class="card-title">Veg rice</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-4 d-flex justify-content-center">
+        <div class="card mx-4" style="width: 18rem; border: none;">
+            <div class="card-body my-5">
+                <h5 class="card-title" style="font-weight: 700;">Best deals Crispy <br>Diffen</h5>
+                <p class="card-text mb-5">Enjoy the large size of Dosa. Complete
+                    perfect slice of Dosa.</p>
+                <a href="#" class="btn btn-primary p-3"
+                    style="font-size: 12px; width: 260px; background-color: orange; border: none; box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);">PROCEED
+                    TO ORDER></a>
+            </div>
+        </div>
+        <img style="width: 609px; height: 345px; border-radius: 20px;" src="foods/dish.png" alt="">
+    </section>
+    <div class="d-flex justify-content-center mt-5">
+        <h4 style="font-weight: bold;">Popular Items</h4>
+    </div>
+    <section class="container-5 d-flex justify-content-center">
+        <div class="deals d-flex my-4">
+            <div class="card my-2 mx-3 d-flex align-items-center" style="width: 10rem; border: none;">
+                <img src="foods/mur.png" class="card-img-top" style="height: 10rem; width: 10rem; border-radius: 5px;"
+                    alt="...">
+                <div class="card-body">
+                    <h6 class="card-title d-flex justify-content-center">Murukku</h6>
+                    <a href="#" class="btn btn-outline-warning"
+                        style="font-size: small; background-color: #f77200eb; color: white; border: none; font-weight: 700; width: 160px;">Order
+                        Now</a>
+                </div>
+            </div>
+            <div class="card my-2 mx-3 d-flex align-items-center" style="width: 10rem; border: none;">
+                <img src="foods/pani.png" class="card-img-top" style="height: 10rem; width: 10rem; border-radius: 5px;"
+                    alt="...">
+                <div class="card-body">
+                    <h6 class="card-title d-flex justify-content-center">Paniyaram</h6>
+                    <a href="#" class="btn btn-outline-warning"
+                        style="font-size: small; background-color: #f77200eb; color: white; border: none; font-weight: 700; width: 160px; ">Order
+                        Now</a>
+                </div>
+            </div>
+            <div class="card my-2 mx-3 d-flex align-items-center" style="width: 10rem; border: none;">
+                <img src="foods/sev.png" class="card-img-top" style="height: 10rem; width: 10rem; border-radius: 5px;"
+                    alt="...">
+                <div class="card-body">
+                    <h6 class="card-title d-flex justify-content-center">Seeval Murukku</h6>
+                    <a href="#" class="btn btn-outline-warning"
+                        style="font-size: small; background-color: #f77200eb; color: white; border: none; font-weight: 700; width: 160px;">Order
+                        Now</a>
+                </div>
+            </div>
+            <div class="card my-2 mx-3 d-flex align-items-center" style="width: 10rem; border: none;">
+                <img src="foods/mix.png" class="card-img-top" style="height: 10rem; width: 10rem; border-radius: 5px;"
+                    alt="...">
+                <div class="card-body">
+                    <h6 class="card-title d-flex justify-content-center">Mixture</h6>
+                    <a href="#" class="btn btn-outline-warning"
+                        style="font-size: small; background-color: #f77200eb; color: white; border: none; font-weight: 700; width: 160px;">Order
+                        Now</a>
+                </div>
+            </div>
+            <div class="card my-2 mx-3 d-flex align-items-center" style="width: 10rem; border: none;">
+                <img src="foods/soup.png" class="card-img-top" style="height: 10rem; width: 10rem; border-radius: 5px;"
+                    alt="...">
+                <div class="card-body">
+                    <h6 class="card-title d-flex justify-content-center">Veg Soup</h6>
+                    <a href="#" class="btn btn-outline-warning d-flex justify-content-center"
+                        style="font-size: small; background-color: #f77200eb; color: white; border: none; font-weight: 500; width: 160px;">Order
+                        Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-6 d-flex justify-content-center">
+        <div class="deals d-flex my-4">
+            <div class="card my-2 mx-3 d-flex align-items-center" style="width: 10rem; border: none;">
+                <img src="foods/gulab.png" class="card-img-top" style="height: 10rem; width: 10rem; border-radius: 5px;"
+                    alt="...">
+                <div class="card-body">
+                    <h6 class="card-title d-flex justify-content-center">Gulab Jamun</h6>
+                    <a href="#" class="btn btn-outline-warning"
+                        style="font-size: small; background-color: #f77200eb; color: white; border: none; font-weight: 700; width: 160px;">Order
+                        Now</a>
+                </div>
+            </div>
+            <div class="card my-2 mx-3 d-flex align-items-center" style="width: 10rem; border: none;">
+                <img src="foods/pori.png" class="card-img-top" style="height: 10rem; width: 10rem; border-radius: 5px;"
+                    alt="...">
+                <div class="card-body">
+                    <h6 class="card-title d-flex justify-content-center">Porivellangai Urundai</h6>
+                    <a href="#" class="btn btn-outline-warning"
+                        style="font-size: small; background-color: #f77200eb; color: white; border: none; font-weight: 700; width: 160px; ">Order
+                        Now</a>
+                </div>
+            </div>
+            <div class="card my-2 mx-3 d-flex align-items-center" style="width: 10rem; border: none;">
+                <img src="foods/jangri.png" class="card-img-top"
+                    style="height: 10rem; width: 10rem; border-radius: 5px;" alt="...">
+                <div class="card-body">
+                    <h6 class="card-title d-flex justify-content-center">Jangri</h6>
+                    <a href="#" class="btn btn-outline-warning"
+                        style="font-size: small; background-color: #f77200eb; color: white; border: none; font-weight: 700; width: 160px;">Order
+                        Now</a>
+                </div>
+            </div>
+            <div class="card my-2 mx-3 d-flex align-items-center" style="width: 10rem; border: none;">
+                <img src="foods/lattu.png" class="card-img-top" style="height: 10rem; width: 10rem; border-radius: 5px;"
+                    alt="...">
+                <div class="card-body">
+                    <h6 class="card-title d-flex justify-content-center">Lattu</h6>
+                    <a href="#" class="btn btn-outline-warning"
+                        style="font-size: small; background-color: #f77200eb; color: white; border: none; font-weight: 700; width: 160px;">Order
+                        Now</a>
+                </div>
+            </div>
+            <div class="card my-2 mx-3 d-flex align-items-center" style="width: 10rem; border: none;">
+                <img src="foods/halwa.png" class="card-img-top" style="height: 10rem; width: 10rem; border-radius: 5px;"
+                    alt="...">
+                <div class="card-body">
+                    <h6 class="card-title d-flex justify-content-center">Halwa</h6>
+                    <a href="#" class="btn btn-outline-warning d-flex justify-content-center"
+                        style="font-size: small; background-color: #f77200eb; color: white; border: none; font-weight: 500; width: 160px;">Order
+                        Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="d-flex align-items-center justify-content-center" style="height: 350px; background-color: black; ">
+            <div class="footer-menu d-flex">
+                <div class="footer-menu-box" style="color: white;">
+                    <strong style="margin-left: 32px;">Company</strong>
+                    <ul class="my-4" style="list-style: none; font-weight: 100; opacity: 70%; margin-right: 50px;">
+                        <li>About Us</li>
+                        <li>Team</li>
+                        <li>Career</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="footer-menu-box" style="color: white;">
+                    <strong style="margin-left: 32px;">Contact</strong>
+                    <ul class="my-4" style="list-style: none; font-weight: 100; opacity: 70%; margin-right: 50px;">
+                        <li>Help & Support</li>
+                        <li>Partner with us</li>
+                        <li>Ride with us</li>
+                    </ul>
+                </div>
+                <div class="footer-menu-box" style="color: white;">
+                    <strong style="margin-left: 34px;">Legal</strong>
+                    <ul class="my-4" style="list-style: none; font-weight: 100; opacity: 70%; margin-right: 50px;">
+                        <li>Terms & Conditions</li>
+                        <li>Refund & Cancellation</li>
+                        <li>Privacy Policy</li>
+                        <li>Cookie Policy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-menu-box" style="color: white;">
+                <strong style="margin-left: 34px; opacity: 70%;">FOLLOW US</strong>
+                <ul class="my-4" style="list-style: none; font-weight: 100; opacity: 50%; margin-right: 50px;">
+                    <li><i class='bx bxl-instagram mx-1'></i><i class='bx bxl-facebook-square mx-1'
+                            style='color:#ffffff'></i><i class='bx bxl-twitter mx-1  ' style='color:#ffffff'></i></li>
+                    <br>
+                    <li>Receive exclusive offers in your mailbox</li>
+                    <br>
+                    <li>
+                        <form class="row">
+                            <div class="col-auto">
+                                <input type="password" class="form-control" id="inputPassword2"
+                                    style=" font-size: smaller; background: var(--theme-gray-800, #424242);"
+                                    placeholder="Enter Your Email">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-primary mb-3"
+                                    style="border-radius: 8px; font-size: smaller; width: 100px;
+                                background: var(--yellow-button, linear-gradient(93deg, #FFB800 -47.72%, #FF8A00 136.81%));
+                                box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);">Subcribe</button>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
